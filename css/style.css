@@ -1,0 +1,151 @@
+body{
+    /* background-color: #143375; */
+    color: #fff;
+}
+header{
+    /* height: 1000px; */
+    background-color: #143375;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.nav_bar ul{
+    float: right;
+    list-style: none;
+    display: flex;
+}
+.nav_bar ul li{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.nav_bar i{
+   
+    color: #627cc4;
+
+}
+.schedule{
+    padding-bottom: 30px;
+}
+.content_wrap{
+    background-color: #143375;
+    padding-left: 50px;
+}
+.content_wrap p{
+    line-height: 60px;
+    color: #959595;
+}
+.content_wrap h3{
+    line-height: 60px;
+}
+.form_wrap{
+    background-color: #143375;
+    /* z-index: -1; */
+}
+.form_wrap form{
+    border-radius: 1px;
+    color: #000;
+    float: right;
+    width: 400px;
+    background-color: #fff;
+
+}
+form{
+    
+    margin-right: 50px;
+    padding: 30px;
+    border-top: 3px solid #73e7e6;
+    color: #eee;
+  
+}
+form ::placeholder{
+    font-weight: 600;
+}
+form h4{
+    padding: 20px;
+    text-align: center;
+}
+#fname{
+    width: 48%;
+    float: left;
+    padding: 10px;
+    border: 2px solid #eee;
+}
+#lname{
+    width:48%;
+    float: right;
+    padding: 10px;
+    border: 2px solid #eee;
+}
+#email{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #eee;
+}
+
+#schedule_btn{
+    margin-top: 20px;
+    width: 100%;
+    border:none;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #6266e4;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+#talk_btn{
+    margin-top: 20px;
+    width: 100%;
+    border:3px solid #494897;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.wave{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px ;
+}
+.work{
+    text-align: center;
+}
+.wave h3, p{
+    color: #000;
+    font-weight: 500;
+    padding: 10px;
+}
+.wave i{
+    color: #627cc4;
+    font-size: 32px;
+}
+.work p{
+    color: #999;
+    font-weight: 400;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border:none;
+    width: 30%;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #6266e4;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+
+
+

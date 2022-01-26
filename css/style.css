@@ -75,6 +75,7 @@ form h4{
     padding: 10px;
     border: 2px solid #eee;
 }
+
 #lname{
     width:48%;
     float: right;
@@ -99,6 +100,11 @@ form h4{
     font-weight: 600;
     font-size: 1.5em;
 }
+
+.form_wrap a:hover{
+    opacity: 0.7;
+}
+
 #talk_btn{
     margin-top: 20px;
     width: 100%;
